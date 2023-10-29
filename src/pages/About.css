@@ -1,0 +1,64 @@
+.about{
+    background-image: url("../images/home_background.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    width: 130vw;
+    height:130vh;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+height: 250%;
+width:60%;
+display:inline-flex;
+flex-direction: row;
+margin-top: 90px;
+margin-right: 100px;
+margin-left: 10px;
+margin-bottom: 15px;
+font-size: 15px;
+position: relative;
+}
+.container-2 {
+height: 250%;
+width:70%;
+display: inline-flex;
+flex-direction: row;
+margin-top: 50px;
+margin-right: 20px;
+margin-left: 100px;
+margin-bottom: -10px;
+font-size: 15px;
+position: relative;
+}
+
+.image {
+flex: 1;
+background: url("../images/about_us_diamond.jpg") center center no-repeat;
+background-size: cover;
+}
+
+.text-box {
+flex: 1;
+background-color:#393f4d;         /*  Deep Matte Grey: #393f4d or Dark Slate: #1d1e22 */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+@media (max-width: 768px) {
+.container {
+  height: 25vh; 
+}
+}
+@media (max-width: 768px) {
+.container-2 {
+  height: 25vh; 
+}
+}
+
+  
