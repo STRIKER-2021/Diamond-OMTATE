@@ -22,7 +22,7 @@
   /* Style for the feedback form on the left */
   .feedback-form {
     flex: 1;
-    background-color: white;
+    background-color:beige;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
   /* Style for the contact details on the right */
   .contact-details {
     flex: 1;
-    background-color: white;
+    background-color: beige;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
